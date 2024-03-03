@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我就知道小宝宝一定会愿意~(^_^)', function() {
+        modal('我就知道郭莉宝宝一定会愿意~(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -18,15 +18,15 @@ function A() {
 }
 
 function B() {
-    modal('我知道你在等我这一句话', C);
+    modal('对不起宝宝', C);
 }
 
 function C() {
-    modal('请宝宝不要拒绝我嘛~', D);
+    modal('我以后不会惹你生气了~', D);
 }
 
 function D() {
-    modal('拒绝我，不存在的', E);
+    modal('不存在的', E);
 }
 
 function E() {
@@ -61,7 +61,7 @@ function I() {
 }
 
 function J() {
-    modal('行，我们去民政局登记吧', function() {
+    modal('我会一直爱你爱下去的', function() {
         fireworks();
     });
 }
